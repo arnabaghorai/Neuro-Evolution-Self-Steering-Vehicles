@@ -1,0 +1,21 @@
+{
+  "name": "neuro_evolution",
+  "version": "1.0.0",
+  "description": "Applied Neuro Evolution for self steering particles",
+  "main": "boundary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnabaghorai/arnabaghorai.github.io.git"
+  },
+  "keywords": [
+    "NeuroEvolution",
+    "P5",
+    "Perlin Noise",
+    "Self Steering"
+  ],
+  "author": "Arnab Ghorai",
+  "license": "ISC"
+}
