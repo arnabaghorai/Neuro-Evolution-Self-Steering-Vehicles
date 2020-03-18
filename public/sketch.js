@@ -78,7 +78,8 @@ function trackgen() {
 }
 
 function setup() {
-	createCanvas(500, 500);
+	cnv = createCanvas(500, 500);
+	cnv.parent("container");
 	tf.setBackend('cpu');
 
 	stroke(255);

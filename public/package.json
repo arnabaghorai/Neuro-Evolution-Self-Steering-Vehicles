@@ -4,12 +4,13 @@
   "description": "Applied Neuro Evolution for self steering particles",
   "main": "boundary.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/arnabaghorai/arnabaghorai.github.io.git"
   },
+  "homepage": "https://github.com/arnabaghorai/Neuro-Evolution-Self-Steering-Vehicles",
   "keywords": [
     "NeuroEvolution",
     "P5",
@@ -17,5 +18,8 @@
     "Self Steering"
   ],
   "author": "Arnab Ghorai",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
